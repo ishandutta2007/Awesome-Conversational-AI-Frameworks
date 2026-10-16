@@ -42,59 +42,17 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[OpenAI Platform](https://platform.openai.com/)**  
-
-  **The foundation model provider for conversational AI** . **GPT-6 Astra** is the flagship for complex reasoning and coding with a **1.05M token context window** and **$10/$50 per MTok** pricing . **GPT-6.1 Sol** balances intelligence and cost at **$2/$12 per MTok** . **GPT-6 Luna** targets cost-sensitive, high-volume workloads at **$0.1/$0.5 per MTok** . All latest models support text and image input, multilingual capabilities, and vision . **The most widely used API for building conversational AI applications.**
-
-
-
-- **[Microsoft Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)**  
-
-  **Microsoft's managed OpenAI models** with enterprise security, compliance, and regional data residency . **GPT-5.6 Luna** (July 2026) supports reasoning, Responses API, structured outputs, parallel tool calling, and computer use with a **1.05M context window** and **128K max output tokens** . **GPT-5.5** (April 2026) offers reasoning with a **128K output limit** and **December 2025 training cutoff** . Requires quota requests for higher tiers; standard deployments use separate short-context and long-context pricing categories . **The enterprise standard** for organizations already in the Microsoft ecosystem.
-
-
-
-- **[Google Dialogflow CX](https://cloud.google.com/dialogflow)**  
-
-  **Google's advanced conversational AI platform** for large or complex applications . **Flow and page graph structure** for visual conversation design with a state machine model . **Features**: **generative and deterministic approaches**, **built-in testing and coverage**, **conditional logic**, **DTMF input**, **advanced NLU**, and **up to 1,000 agents per project** . **Pricing**: **$0.007 per text request** and **$0.06 per minute** for audio input/output (speech recognition, TTS, telephony) . **Dialogflow CX Trial Edition** is free with limited quota; **Dialogflow CX Edition** is pay-as-you-go with production-ready quotas and Google Cloud support . **The reference implementation for complex conversational flows.**
-
-
-
-- **[Amazon Lex V2](https://aws.amazon.com/lex/)**  
-
-  **AWS's conversational AI service** for building voice and text bots . **Built-in integrations** with **Amazon Bedrock Agents and Knowledge Bases** via the `AMAZON.BedrockAgentIntent` for enhanced conversational AI . **Assisted NLU** uses LLMs to improve intent classification and slot resolution while staying within configured intents and slots . **QnA generative AI intent** supports **Bedrock Knowledge Bases and Guardrails** for safer, more accurate responses . **Global resiliency** enables cross-region bot replication for high availability and disaster recovery . **Pricing**: **$0.00075 per text request** after the first 10,000 monthly; **$0.004 per voice request** after the first 1,000 monthly . **Free tier**: 10,000 text and 1,000 voice requests per month for the first year . **The most AWS-integrated conversational AI platform.**
-
-
-
-- **[Cognigy](https://www.cognigy.com/)**  
-
-  **AI-first CX platform for building, managing, and deploying AI agents at enterprise scale** . **Hybrid AI** combines **Agentic AI** (LLMs with real-time context, memory, tools, and enterprise governance) with **deterministic rule-based automation** for enterprise control where needed . **AI Agent Studio** provides a low/no-code visual interface with AI-assisted design, 100+ channel and system connectors, and real-time collaboration . **Knowledge AI** ingests documents or repositories like Confluence into vector databases for RAG-powered answers . **Native Voice Gateway** supports free choice of STT and TTS models from Google, Microsoft, ElevenLabs, Deepgram, and more . **xApps** are mobile-first, OS-agnostic micro web applications for multimodal, transaction-ready interactions that transcend traditional chat and voice constraints . **The most comprehensive enterprise conversation orchestration platform.**
-
-
-
-- **[Kore.ai](https://kore.ai/)**  
-
-  **End-to-end platform to build, train, analyze, and manage enterprise-ready bots** . **Proprietary multi-pronged NLP approach** combines multiple engines to cover inherent weaknesses of any individual model . **GUI-based dialog builder** for visual conversation design with conditional nodes for multiple intents, sub-intents, and pause/resume scenarios . **Omnichannel presence** supports 30+ enterprise, social, live chat, SMS, email, voice assistant, website, and mobile channels from a single configuration . **Bot training** with both deterministic and probabilistic models for intent detection . **SOC Type 1 certified** with SSO integration, encryption in transit and at rest, and full audit logging . **AgentAssist** provides real-time agent coaching, playbooks, and knowledge retrieval via SearchAssist . **The most comprehensive enterprise bot management platform.**
-
-
-
-- **[Voiceflow](https://www.voiceflow.com/)**  
-
-  **The framework for enterprise AI customer experience** . **V4** is a ground-up rearchitecture with **agent-first routing**—define capabilities while the agent routes intelligently instead of drawing every conversation path by hand . **Context Engine** introduces layered prompt architecture (global prompt, agent instructions, playbook instructions) ensuring the model only sees what it needs at each conversation stage . **Playbooks** handle open-ended conversations autonomously; **Workflows** handle structured processes deterministically . **Extensible by design**—API calls, JavaScript functions, MCP servers, and pre-built integrations with Salesforce, Zendesk, Shopify all plug into the same system . **Asynchronous execution** means tool calls no longer block the conversation . **Strategic model assignment**—a fast lightweight model for greetings, a powerful reasoning model for complex playbooks . **The most modern agentic CX framework.**
-
-
-
-- **[Boost.ai](https://boost.ai/)**  
-
-  **The trusted leader in AI-powered customer experience for regulated industries** . **Adaptive Voice** combines **Speech-To-Speech (Express Voice)** for fast, free-flowing interactions with **Speech-To-Text/Text-To-Speech Pipeline (Enterprise Voice)** for full compliance and control—**dynamically switching between approaches within a single continuous conversation** . **Hybrid AI** combines proven NLU with generative and agentic capabilities . **No-code builder** with pre-built industry modules and compliance guardrails . **Persona-based testing tool** simulates real user interactions to uncover jailbreak vulnerabilities . **Certified to ISO 27001 and 27701, compliant with GDPR and OWASP** . **600+ live AI agents, 150M+ automated conversations** . **The reference implementation for regulated-industry conversational AI.**
-
-
-
-- **[Amelia (SoundHound AI)](https://amelia.ai/)**  
-
-  **Autonomous AI agents for enterprise front lines** . **Amelia 7.0** introduces **Agentic+**—a proprietary framework for autonomous, multi-agent orchestration that toggles between **generative flows** (probabilistic) and **deterministic flows** (rules-based) with **human-in-the-loop** mechanisms . **Action functions** library handles password resets, prescription refills, loan approvals, and personalized recommendations . **Advanced ASR** with low-latency streaming and enterprise tuning delivers unmatched speed and accuracy . **Generative agent design** builds with prompting and natural language instead of manual logic sequencing . **The most advanced autonomous agent platform for regulated industries.**
+| Platform / Company | Company Size (Valuation / Revenue) | Pricing (Starting Tier / Rates) | Free Tier / Trial Limits | Key Focus & Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)** | ~$3.1T Market Cap (Microsoft) / $245B+ ARR | Pay-as-you-go starting at $0.15/MTok input, $0.60/MTok output (GPT-4o-mini); flagship models at $2.50/$10.00 per MTok | 30-day trial with $200 free Azure credits (heavily rate-limited to 1,000 TPM on trial tier) | Managed enterprise OpenAI models with regional data residency, enterprise compliance, and Azure ecosystem integration. |
+| **[Amazon Lex V2](https://aws.amazon.com/lex/)** | ~$1.9T Market Cap (Amazon) / $105B+ AWS ARR | Pay-as-you-go: $0.00075 per text request; $0.004 per voice request (streaming audio billed at $0.0065/interval) | 10,000 text requests and 1,000 voice requests per month free for the first 12 months (AWS Free Tier) | Deep AWS integration, Bedrock Agents & Knowledge Bases connectivity, assisted NLU, and cross-region bot replication. |
+| **[Google Dialogflow CX](https://cloud.google.com/dialogflow)** | ~$1.8T Market Cap (Alphabet) / $350B+ ARR | Pay-as-you-go: $0.007 per text request (turn); $0.06 per minute for audio I/O ($0.001/sec) | $600 one-time credit valid for 12 months upon creating first agent; 10 GiB free data store index storage | State-machine visual flow/page graph builder, generative playbooks, DTMF telephony support, and enterprise NLU. |
+| **[OpenAI Platform](https://platform.openai.com/)** | ~$157B Valuation (Private) / ~$4B+ ARR | Pay-as-you-go starting at $0.10/MTok input & $0.50/MTok output (GPT-6 Luna); GPT-6.1 Sol at $2/$12 per MTok; GPT-6 Astra at $10/$50 per MTok | No permanent recurring free API tier; $100/mo spending ceiling on unfunded accounts; requires $5 minimum credit deposit to activate | Flagship foundation models, advanced reasoning, structured outputs, vision, and real-time audio APIs. |
+| **[Kore.ai](https://kore.ai/)** | ~$1.2B Valuation (Series D) / $234M+ Funding | Standard tier starting at $50–$150/month (billed per 15-min session); Enterprise custom quotes | 14-day free trial with ~2,000 conversation sessions (Automation AI); 30-day trial for Contact Center AI | Multi-engine NLP approach, visual dialog builder, 30+ omnichannel integrations, and real-time AgentAssist. |
+| **[Cognigy](https://www.cognigy.com/)** | $955M Acquisition by NICE / ~$37M–$85M ARR | Entry marketplace plans starting at $2,500–$5,000/month (~$43,000/year for ~60,000 conversations) | No self-serve free trial; access requires contacting enterprise sales for a customized guided PoC/pilot | Hybrid AI combining agentic LLMs with deterministic flows, AI Agent Studio, Native Voice Gateway, and xApps. |
+| **[Voiceflow](https://www.voiceflow.com/)** | $105M Valuation / ~$10M–$30M ARR | Free tier at $0; Pro tier starts at $60/month per editor; Business tier starts at $150/month per editor | Free forever plan: 100 one-time credits (~100 chat messages or 10 min phone testing), up to 2 agents, OpenAI models only | Collaborative agent-first conversation design, layered context prompt engine, autonomous playbooks, and extensible integrations. |
+| **[Amelia (SoundHound AI)](https://amelia.ai/)** | $80M Acquisition (SoundHound AI parent ~$2B Market Cap) / ~$45M ARR | Enterprise contract plans starting around $50,000/year; tailored quotes based on conversation volume | No self-serve free trial; access requires contacting sales for a tailored enterprise demo and evaluation pilot | Agentic+ framework for autonomous multi-agent orchestration, action functions library, and low-latency streaming ASR. |
+| **[Boost.ai](https://boost.ai/)** | Undisclosed Valuation (Acquired by Automation Anywhere) / ~€25M ($29M) ARR | Enterprise deployments starting around $50,000/year based on conversation volume and channels | No self-serve free trial; evaluation requires scheduling a consultation and platform demo with sales | Adaptive Voice dynamically switching between speech-to-speech and STT/TTS pipelines, pre-built industry modules, ISO 27001 certified. |
 
 
 
